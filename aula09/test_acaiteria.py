@@ -69,7 +69,7 @@ def test_observador_inscrito_recebe_o_evento():
 #      drone e rode pytest (só descomentar este teste, sem os passos 1 e 2,
 #      dá erro de import — não "7 passed"):
 #
-#          def test_drone_cobra_taxa_fixa_mais_por_km():
-#              from acaiteria import EntregaDrone
-#              assert EntregaDrone().preco(2) == 14.0      # 8 + 3*2
+def test_drone_cobra_taxa_fixa_mais_por_km():
+    from acaiteria import EntregaDrone
+    assert EntregaDrone().preco(2) == 14.0      # 8 + 3*2
 # ------------------------------------------------------------------
